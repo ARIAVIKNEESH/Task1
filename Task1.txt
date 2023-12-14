@@ -1,0 +1,27 @@
+1)
+HTTP 1.1:
+1)It works in the textual form.
+2)It uses resource inlining for getting multiple pages.
+3)It compressess data by itself.
+4)There is a head blocking all request behind until it finds the resource
+
+HTTP 2:
+1)It works on binary protocol.
+2)It uses PUSH frame by server that collects all multiple pages.
+3)It uses HPACK for data compression.
+4)It allows multiplexing so one TCP connection is required for multiple requests.
+
+
+2)
+->Objects play a vital role in building complex for data structures in javascript.
+->An object is a composite data type that allows developers to group related data and functions together.
+->Objects can represent real-world entities and their behaviors, making them a powerful tool for organizing and managing code.
+
+Internal Representation of Objects:
+->Dictionary:
+-------------
+Object properties are stored in a dictionary, which allows for dynamic property addition and removal. This flexibility is a key feature of JavaScript objects.
+
+->Hidden Class:
+---------------
+To optimize property access and method invocation, JavaScript engines use a hidden class to track the shape of objects. When an object's structure changes, the hidden class is updated to ensure efficient property access.
